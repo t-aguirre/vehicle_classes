@@ -43,15 +43,28 @@ class Bicycles
         $this->color = $color;
     }
 
+
+    public function getNbSeats(int $nbSeats): void
+    {
+        $this->nbSeats = $nbSeats;
+    }
+
     public function setNbSeats(int $nbSeats): void
     {
         $this->nbSeats = $nbSeats;
+    }
+
+
+    public function getNbWheels(int $nbWheels): void
+    {
+        $this->nbWheels = $nbWheels;
     }
 
     public function setNbWheels(int $nbWheels): void
     {
         $this->nbWheels = $nbWheels;
     }
+
 
     public function getCurrentSpeed(): int
     {

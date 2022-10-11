@@ -49,9 +49,19 @@ class SimpsonsCars
         return $this->nbWheels;
     }
 
+    public function setNbWheels($nbWheels): void
+    {
+        $this->nbWheels = $nbWheels;
+    }
+
     public function getCurrentSpeed(): int
     {
         return $this->currentSpeed;
+    }
+
+    public function setCurrentSpeed($currentSpeed): void
+    {
+        $this->currentSpeed = $currentSpeed;
     }
 
     public function getColor(): string
@@ -59,9 +69,19 @@ class SimpsonsCars
         return $this->color;
     }
 
+    public function setColor($color): void
+    {
+        $this->color = $color;
+    }
+
     public function getNbSeats(): string
     {
         return $this->nbSeats;
+    }
+
+    public function setNbSeats($nbSeats): void
+    {
+        $this->nbSeats = $nbSeats;
     }
 
     public function getEnergy(): string
@@ -69,13 +89,28 @@ class SimpsonsCars
         return $this->nbSeats;
     }
 
+    public function setEnergy($nbSeats): void
+    {
+        $this->nbSeats = $nbSeats;
+    }
+
     public function getFuelType(): string
     {
         return $this->fuelType;
     }
 
+    public function setFuelType($fuelType): void
+    {
+        $this->fuelType = $fuelType;
+    }
+
     public function getFuelQuantity(): string
     {
         return $this->fuelQuantity;
+    }
+
+    public function setFuelQuantity($fuelQuantity): void
+    {
+        $this->fuelQuantity = $fuelQuantity;
     }
 }
