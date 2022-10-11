@@ -1,6 +1,6 @@
 <?php
 
-class Bicycle
+class Bicycles
 {
     private string $color;
     private int $currentSpeed;

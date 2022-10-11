@@ -1,7 +1,7 @@
 <?php
 
 require_once 'SimpsonsCars.php';
-require_once 'Bicycle.php';
+require_once 'Bicycles.php';
 
 //Instantiation of a new SimpsonsCar object, PINK SEDAN (color, nb of seats and fuel)
 $pinkSedan = new SimpsonsCars('pink', 5, 'petrol');
@@ -25,7 +25,7 @@ echo $krustyPorsche->brake() . '<br>' . PHP_EOL;
 echo 'Vitesse de la voiture : ' . $krustyPorsche->getCurrentSpeed() . ' km/h' . '<br>';
 
 //Instantiation of a new Bicycle object, BIKE (color, current speed)
-$bike = new Bicycle("blue", 15);
+$bike = new Bicycles("blue", 15);
 
 echo "<br> BIKE: <br>" . PHP_EOL;
 echo $bike->forward();
@@ -35,7 +35,7 @@ echo '<br> Vitesse du vélo : ' . $bike->getcurrentSpeed() . ' km/h' . '<br>';
 
 
 //Instantiation of a new Bicycle object, ROCKRIDER (color, current speed)
-$rockrider = new Bicycle("yellow", 20);
+$rockrider = new Bicycles("yellow", 20);
 
 echo "<br>ROCKRIDER: <br>" . PHP_EOL;
 echo $rockrider->forward();
@@ -45,7 +45,7 @@ echo '<br> Vitesse du vélo : ' . $rockrider->getcurrentSpeed() . ' km/h' . '<br
 
 
 //Instantiation of a new Bicycle object, TORNADO (color, current speed)
-$tornado = new Bicycle("black", 30);
+$tornado = new Bicycles("black", 30);
 
 echo "<br>TORNADO: <br>" . PHP_EOL;
 echo $tornado->forward();
