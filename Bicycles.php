@@ -44,9 +44,9 @@ class Bicycles
     }
 
 
-    public function getNbSeats(int $nbSeats): void
+    public function getNbSeats(): int
     {
-        $this->nbSeats = $nbSeats;
+        return $this->nbSeats;
     }
 
     public function setNbSeats(int $nbSeats): void
@@ -55,9 +55,9 @@ class Bicycles
     }
 
 
-    public function getNbWheels(int $nbWheels): void
+    public function getNbWheels(): int
     {
-        $this->nbWheels = $nbWheels;
+        return $this->nbWheels;
     }
 
     public function setNbWheels(int $nbWheels): void
